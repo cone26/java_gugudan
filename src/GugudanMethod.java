@@ -1,5 +1,5 @@
 
-public class Gugudan_method {
+public class GugudanMethod {
 	// 계산하는 메소드
 	public static int[] calc(int times) {
 		int[] result = new int[9];
@@ -15,12 +15,5 @@ public class Gugudan_method {
 			System.out.println(i + "*" + (j+1) + "=" + result[j]);
 		}
 	}
-	//메인
-	public static void main (String[] args) {
-	//반복문으로 함수 실행
-		for(int i =2; i < 10; i ++) {
-			int[] result = calc(i);
-			print(result, i);
-		}
-	}
+
 }
