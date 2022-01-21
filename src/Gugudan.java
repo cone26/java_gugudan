@@ -1,4 +1,5 @@
-import java.util.Scanner; 
+import java.util.Scanner;
+
 public class Gugudan {
 	public static void main(String[] args) {
 //		//2단
@@ -26,39 +27,53 @@ public class Gugudan {
 //		System.out.println(3 * 9);
 		
 		//4단 변수사용
-		System.out.println("-----4단-----");
-		int result = 4 * 1;
-		System.out.println(result);
-		result = 4 * 2;
-		System.out.println(result);
-		result = 4 * 3;
-		System.out.println(result);
-		result = 4 * 4;
-		System.out.println(result);
-		result = 4 * 5;
-		System.out.println(result);
-		result = 4 * 6;
-		System.out.println(result);
-		result = 4 * 7;
-		System.out.println(result);
-		result = 4 * 8;
-		System.out.println(result);
-		result = 4 * 9;
-		System.out.println(result);
+//		System.out.println("-----4단-----");
+//		int result = 4 * 1;
+//		System.out.println(result);
+//		result = 4 * 2;
+//		System.out.println(result);
+//		result = 4 * 3;
+//		System.out.println(result);
+//		result = 4 * 4;
+//		System.out.println(result);
+//		result = 4 * 5;
+//		System.out.println(result);
+//		result = 4 * 6;
+//		System.out.println(result);
+//		result = 4 * 7;
+//		System.out.println(result);
+//		result = 4 * 8;
+//		System.out.println(result);
+//		result = 4 * 9;
+//		System.out.println(result);
 		
 		//5단 사용자에게 입력 + 변수사용
-		System.out.println("몇 단을 계산할까요? : ");
-		Scanner scanner = new Scanner(System.in);
-		int num = scanner.nextInt();
-		System.out.println("-----"+num+"단-----");
-		System.out.println(num * 1);
-		System.out.println(num * 2);
-		System.out.println(num * 3);
-		System.out.println(num * 4);
-		System.out.println(num * 5);
-		System.out.println(num * 6);
-		System.out.println(num * 7);
-		System.out.println(num * 8);
-		System.out.println(num * 9);
+//		System.out.println("몇 단을 계산할까요?: ");
+//		Scanner scanner = new Scanner(System.in);
+//		int num = scanner.nextInt();
+//		System.out.println("-----"+num+"단-----");		
+//		System.out.println(num * 1);
+//		System.out.println(num * 2);
+//		System.out.println(num * 3);
+//		System.out.println(num * 4);
+//		System.out.println(num * 5);
+//		System.out.println(num * 6);
+//		System.out.println(num * 7);
+//		System.out.println(num * 8);
+//		System.out.println(num * 9);
+//		
+		//6단 while
+		System.out.println("-----6단-----");
+		int i = 1 ;
+		while(i < 10) {
+			System.out.println(6 * i);
+			i ++;
+		}
+		
+		//7단 for
+		System.out.println("-----7단-----");
+		for(int j =1 ; j < 10; j ++) {
+			System.out.println(7 * j);
+		}
 	}
 }
